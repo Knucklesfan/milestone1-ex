@@ -1,0 +1,81 @@
+bin_PROGRAMS = supertux-milestone1
+
+supertux_milestone1_SOURCES = \
+badguy.cpp \
+badguy.h \
+button.cpp \
+button.h \
+collision.cpp \
+collision.h \
+configfile.cpp \
+configfile.h \
+intro.cpp \
+intro.h \
+defines.h \
+gameloop.cpp \
+gameloop.h \
+globals.cpp \
+globals.h \
+high_scores.cpp \
+high_scores.h \
+level.cpp \
+level.h \
+leveleditor.cpp \
+leveleditor.h \
+lispreader.cpp \
+lispreader.h \
+menu.cpp \
+menu.h \
+particlesystem.cpp \
+particlesystem.h \
+physic.cpp \
+physic.h \
+player.cpp \
+player.h \
+scene.cpp \
+scene.h \
+screen.cpp \
+screen.h \
+setup.cpp \
+setup.h \
+special.cpp \
+special.h \
+supertux.cpp \
+text.cpp \
+text.h \
+texture.cpp \
+texture.h \
+timer.cpp \
+timer.h \
+title.cpp \
+title.h \
+type.cpp \
+type.h \
+world.cpp \
+world.h \
+worldmap.cpp \
+worldmap.h \
+tile.h \
+tile.cpp \
+mousecursor.cpp \
+mousecursor.h \
+resources.h \
+resources.cpp \
+gameobjs.h \
+gameobjs.cpp \
+sprite.h \
+sprite.cpp \
+sprite_manager.cpp \
+sprite_manager.h
+
+if HAVE_SOUND
+ supertux_milestone1_SOURCES += \
+  music_manager.cpp \
+  music_manager.h \
+  musicref.cpp \
+  musicref.h \
+  sound.cpp \
+  sound.h
+endif
+
+# EOF #
