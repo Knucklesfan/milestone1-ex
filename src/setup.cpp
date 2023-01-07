@@ -669,8 +669,8 @@ void st_general_setup(void)
 #endif
 
   /* Unicode needed for input handling: */
-
-  SDL_EnableUNICODE(1);
+  //this actually isnt needed anymore, from what i can tell.
+  //SDL_EnableUNICODE(1);
 
   /* Load global images: */
 
@@ -775,7 +775,6 @@ void st_video_setup(void)
 
       exit(1);
     }
-
   /* Open display: */
   if(use_gl)
     st_video_setup_gl();
@@ -784,24 +783,28 @@ void st_video_setup(void)
 
   Surface::reload_all();
 
-  /* Set window manager stuff: */
+  /* Set window manager stuff, 'cept we dont need to do that anymore, since this is SDL2 now babyyyyy: */
+  /*
 #ifndef GP2X_VERSION
   SDL_WM_SetCaption("SuperTux " VERSION, "SuperTux");
 #endif
+*/
 }
 
 void st_video_setup_sdl(void)
 {
+  screen = new Screen();
   if (use_fullscreen)
     {
 #ifndef GP2X
-      screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 0, SDL_FULLSCREEN ) ; /* | SDL_HWSURFACE); */
+    screen->window = SDL_CreateWindow("SuperTux " VERSION, 100, 100, SCREEN_W, SCREEN_H, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+    SDL_SetWindowFullscreen(screen->window,SDL_WINDOW_FULLSCREEN_DESKTOP);
 #else
 //      screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 16, SDL_HWSURFACE | SDL_DOUBLEBUF ) ; /* GP2X */
       printf("screen width: %d, height: %d\n",SCREEN_W, SCREEN_H);
       screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 16, SDL_SWSURFACE ) ; /* GP2X */
 #endif
-      if (screen == NULL)
+      if (screen->window == NULL)
         {
           fprintf(stderr,
                   "\nWarning: I could not set up fullscreen video for "
@@ -814,13 +817,13 @@ void st_video_setup_sdl(void)
   else
     {
 #ifndef GP2X
-      screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 0, SDL_HWSURFACE | SDL_DOUBLEBUF );
+    screen->window = SDL_CreateWindow("SuperTux " VERSION, 100, 100, SCREEN_W, SCREEN_H, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
 
 #else
 //      screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 16, SDL_HWSURFACE | SDL_DOUBLEBUF ) ; /* GP2X */
       screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 16, SDL_SWSURFACE ) ; /* GP2X */
 #endif
-      if (screen == NULL)
+      if (screen->window == NULL)
         {
           fprintf(stderr,
                   "\nError: I could not set up video for 640x480 mode.\n"
@@ -830,9 +833,21 @@ void st_video_setup_sdl(void)
     chdir("/usr/gp2x");
     execl("/usr/gp2x/gp2xmenu", "/usr/gp2x/gp2xmenu", NULL);    
 #endif
-          exit(1);
+          //exit(1);
         }
     }
+  screen->render = SDL_CreateRenderer(screen->window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+  if (screen->render == nullptr) {
+        std::cout << "SDL_CreateRenderer Error: " << SDL_GetError() << std::endl;
+
+        SDL_DestroyWindow(screen->window);
+        SDL_Quit();
+
+        exit(1);
+  }
+    SDL_SetRenderDrawBlendMode(screen->render, SDL_BLENDMODE_BLEND);
+    SDL_RenderSetLogicalSize(screen->render, SCREEN_W, SCREEN_H);
+
 }
 
 void st_video_setup_gl(void)
@@ -847,12 +862,14 @@ void st_video_setup_gl(void)
 
   if (use_fullscreen)
     {
-      screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 0, SDL_FULLSCREEN | SDL_OPENGL) ; /* | SDL_HWSURFACE); */
+      screen->window = SDL_CreateWindow("SuperTux " VERSION, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_W, SCREEN_H, SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+      SDL_SetWindowFullscreen(screen->window,SDL_WINDOW_FULLSCREEN_DESKTOP);
+      //screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 0, SDL_FULLSCREEN | SDL_OPENGL) ; /* | SDL_HWSURFACE); */
       if (screen == NULL)
         {
           fprintf(stderr,
-                  "\nWarning: I could not set up fullscreen video for "
-                  "640x480 mode.\n"
+                  "\ncould not set up window for opengl "
+                  "fullscreen mode.\n"
                   "The Simple DirectMedia error that occured was:\n"
                   "%s\n\n", SDL_GetError());
           use_fullscreen = false;
@@ -860,12 +877,12 @@ void st_video_setup_gl(void)
     }
   else
     {
-      screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 0, SDL_OPENGL);
+      screen->window = SDL_CreateWindow("SuperTux " VERSION, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_W, SCREEN_H, SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
 
-      if (screen == NULL)
+      if (screen->window == NULL)
         {
           fprintf(stderr,
-                  "\nError: I could not set up video for 640x480 mode.\n"
+                  "\nError: I could not set up video for opengl.\n"
                   "The Simple DirectMedia error that occured was:\n"
                   "%s\n\n", SDL_GetError());
           exit(1);
@@ -1077,7 +1094,7 @@ void seticon(void)
 
   /* Set icon: */
 
-  SDL_WM_SetIcon(icon, NULL);//mask);
+  SDL_SetWindowIcon(screen->window, icon);//mask);
 
 
   /* Free icon surface & mask: */

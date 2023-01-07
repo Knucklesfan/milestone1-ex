@@ -23,8 +23,9 @@
 #include <string.h>
 #include <errno.h>
 #include <unistd.h>
-#include <SDL.h>
-#include <SDL_image.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_opengl.h>
 
 #ifndef WIN32
 #include <sys/types.h>
@@ -54,9 +55,9 @@ void clearscreen(int r, int g, int b)
   else
   {
 #endif
-
-    SDL_FillRect(screen, NULL, SDL_MapRGB(screen->format, r, g, b));
-#ifndef NOOPENGL
+        SDL_SetRenderDrawColor(screen->render,r,g,b,SDL_ALPHA_OPAQUE);
+        SDL_RenderClear(screen->render);
+        #ifndef NOOPENGL
 
     }
 #endif
@@ -179,32 +180,6 @@ void putpixel(SDL_Surface *surface, int x, int y, Uint32 pixel)
 }
 
 /* Draw a single pixel on the screen. */
-void drawpixel(int x, int y, Uint32 pixel)
-{
-  /* Lock the screen for direct access to the pixels */
-  if ( SDL_MUSTLOCK(screen) )
-    {
-      if ( SDL_LockSurface(screen) < 0 )
-        {
-          fprintf(stderr, "Can't lock screen: %s\n", SDL_GetError());
-          return;
-        }
-    }
-
-  if(!(x < 0 || y < 0 || x > screen->w || y > screen->h))
-    putpixel(screen, x, y, pixel);
-
-  if ( SDL_MUSTLOCK(screen) )
-    {
-      SDL_UnlockSurface(screen);
-    }
-  /* Update just the part of the display that we've changed */
-#ifndef RES320X240
-  SDL_UpdateRect(screen, x, y, 1, 1);
-#else
-  SDL_UpdateRect(screen, x/2, y/2, 1, 1);
-#endif
-}
 
 void drawline(int x1, int y1, int x2, int y2, int r, int g, int b, int a)
 {
@@ -231,46 +206,10 @@ void drawline(int x1, int y1, int x2, int y2, int r, int g, int b, int a)
   else
     {
 #endif
+    //love supertux source, removed hundreds of lines to replace with two lmao
+    SDL_SetRenderDrawColor(screen->render,r,g,b,SDL_ALPHA_OPAQUE);
+    SDL_RenderDrawLine(screen->render,x1,y1,x2,y2);
 
-      /* Basic unantialiased Bresenham line algorithm */
-      int lg_delta, sh_delta, cycle, lg_step, sh_step;
-      Uint32 color = SDL_MapRGBA(screen->format, r, g, b, a);
-
-      lg_delta = x2 - x1;
-      sh_delta = y2 - y1;
-      lg_step = SGN(lg_delta);
-      lg_delta = ABS(lg_delta);
-      sh_step = SGN(sh_delta);
-      sh_delta = ABS(sh_delta);
-      if (sh_delta < lg_delta)
-        {
-          cycle = lg_delta >> 1;
-          while (x1 != x2)
-            {
-              drawpixel(x1, y1, color);
-              cycle += sh_delta;
-              if (cycle > lg_delta)
-                {
-                  cycle -= lg_delta;
-                  y1 += sh_step;
-                }
-              x1 += lg_step;
-            }
-          drawpixel(x1, y1, color);
-        }
-      cycle = sh_delta >> 1;
-      while (y1 != y2)
-        {
-          drawpixel(x1, y1, color);
-          cycle += lg_delta;
-          if (cycle > sh_delta)
-            {
-              cycle -= sh_delta;
-              x1 += lg_step;
-            }
-          y1 += sh_step;
-        }
-      drawpixel(x1, y1, color);
 #ifndef NOOPENGL
 
     }
@@ -324,31 +263,8 @@ if(h < 0)
       rect.y = (int)y;
       rect.w = (int)w;
       rect.h = (int)h;
-
-      if(a != 255)
-        {
-          temp = SDL_CreateRGBSurface(screen->flags, rect.w, rect.h, screen->format->BitsPerPixel,
-                                      screen->format->Rmask,
-                                      screen->format->Gmask,
-                                      screen->format->Bmask,
-                                      screen->format->Amask);
-
-
-          src.x = 0;
-          src.y = 0;
-          src.w = rect.w;
-          src.h = rect.h;
-
-          SDL_FillRect(temp, &src, SDL_MapRGB(screen->format, r, g, b));
-
-          SDL_SetAlpha(temp, SDL_SRCALPHA, a);
-
-          SDL_BlitSurface(temp,0,screen,&rect);
-
-          SDL_FreeSurface(temp);
-        }
-      else
-        SDL_FillRect(screen, &rect, SDL_MapRGB(screen->format, r, g, b));
+      SDL_SetRenderDrawColor(screen->render, r, g, b, w);
+      SDL_RenderFillRect(screen->render, &rect);
 
 #ifndef NOOPENGL
 
@@ -362,17 +278,17 @@ if(h < 0)
 void updatescreen(void)
 {
   if(use_gl)  /*clearscreen(0,0,0);*/
-    SDL_GL_SwapBuffers();
+		SDL_GL_SwapWindow(screen->window);
   else
-    SDL_UpdateRect(screen, 0, 0, screen->w, screen->h);
+    SDL_RenderPresent(screen->render);
 }
 
 void flipscreen(void)
 {
   if(use_gl)
-    SDL_GL_SwapBuffers();
+		SDL_GL_SwapWindow(screen->window);
   else
-    SDL_Flip(screen);
+    SDL_RenderPresent(screen->render);
 }
 
 void fadeout()
@@ -384,11 +300,6 @@ void fadeout()
 
 void update_rect(SDL_Surface *scr, Sint32 x, Sint32 y, Sint32 w, Sint32 h)
 {
-  if(!use_gl)
-#ifndef RES320X240
-    SDL_UpdateRect(scr, x, y, w, h);
-#else
-    SDL_UpdateRect(scr, x, y, w, h);
-#endif
+  updatescreen();
 }
 

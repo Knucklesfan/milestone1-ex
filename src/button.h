@@ -41,7 +41,7 @@ class Button
   friend class ButtonPanel;
 
 public:
-  Button(std::string icon_file, std::string info, SDLKey shortcut, int x, int y, int mw = -1, int h = -1);
+  Button(std::string icon_file, std::string info, SDL_Keycode shortcut, int x, int y, int mw = -1, int h = -1);
   ~Button();
   void event(SDL_Event& event);
   void draw();
@@ -58,7 +58,7 @@ private:
   GameObject* game_object;
   std::vector<Surface*> icon;
   std::string info;
-  SDLKey shortcut;
+  SDL_Keycode shortcut;
   SDL_Rect rect;
   bool show_info;
   ButtonState state;

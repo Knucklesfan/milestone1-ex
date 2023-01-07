@@ -27,7 +27,7 @@
 
 Timer Button::popup_timer;
 
-Button::Button(std::string icon_file, std::string ninfo, SDLKey nshortcut, int x, int y, int mw, int mh)
+Button::Button(std::string icon_file, std::string ninfo, SDL_Keycode nshortcut, int x, int y, int mw, int mh)
 {
   popup_timer.init(false);
 
@@ -121,7 +121,7 @@ void Button::event(SDL_Event &event)
   if(state == BUTTON_DEACTIVE)
     return;
 
-  SDLKey key = event.key.keysym.sym;
+  SDL_Keycode key = event.key.keysym.sym;
 
   if(event.type == SDL_MOUSEBUTTONDOWN || event.type == SDL_MOUSEBUTTONUP)
   {

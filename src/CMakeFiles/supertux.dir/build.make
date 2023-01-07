@@ -652,8 +652,6 @@ supertux: CMakeFiles/supertux.dir/globals.cpp.o
 supertux: CMakeFiles/supertux.dir/scene.cpp.o
 supertux: CMakeFiles/supertux.dir/configfile.cpp.o
 supertux: CMakeFiles/supertux.dir/build.make
-supertux: /usr/lib/libSDL2main.a
-supertux: /usr/lib/libSDL2-2.0.so.0.2600.2
 supertux: CMakeFiles/supertux.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable supertux"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/supertux.dir/link.txt --verbose=$(VERBOSE)

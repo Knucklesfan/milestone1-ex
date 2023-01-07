@@ -103,7 +103,7 @@ Player::init()
 }
 
 int
-Player::key_event(SDLKey key, int state)
+Player::key_event(SDL_Keycode key, int state)
 {
   if(key == keymap.right)
     {

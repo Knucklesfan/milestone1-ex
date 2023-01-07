@@ -49,7 +49,7 @@ JoystickKeymap::JoystickKeymap()
 
 JoystickKeymap joystick_keymap;
 
-SDL_Surface * screen;
+Screen* screen;
 Text* black_text;
 Text* gold_text;
 Text* silver_text;

@@ -55,7 +55,7 @@ const char * soundfilenames[NUM_SOUNDS] = {
                                     };
 
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #ifndef GP2X
 Mix_Chunk * sounds[NUM_SOUNDS];

@@ -759,28 +759,28 @@ Menu::isToggled(int id)
 void
 Menu::event(SDL_Event& event)
 {
-  SDLKey key;
+  SDL_Keycode key;
   switch(event.type)
   {
 #ifndef GP2X
   case SDL_KEYDOWN:
     key = event.key.keysym.sym;
-    SDLMod keymod;
+    SDL_Keymod keymod;
     char ch[2];
     keymod = SDL_GetModState();
     int x,y;
 
     /* If the current unicode character is an ASCII character,
        assign it to ch. */
-    if ( (event.key.keysym.unicode & 0xFF80) == 0 )
-    {
-      ch[0] = event.key.keysym.unicode & 0x7F;
-      ch[1] = '\0';
-    }
-    else
-    {
-      /* An International Character. */
-    }
+    // if ( (event.key.keysym.unicode & 0xFF80) == 0 )
+    // {
+    //   ch[0] = event.key.keysym.unicode & 0x7F;
+    //   ch[1] = '\0';
+    // }
+    // else
+    // {
+    //   /* An International Character. */
+    // }
 
     if(item[active_item].kind == MN_CONTROLFIELD)
     {

@@ -19,7 +19,7 @@
 
 #include <assert.h>
 #include <iostream>
-#include "SDL.h"
+#include <SDL2/SDL.h>
 #include "defines.h"
 #include "special.h"
 #include "gameloop.h"

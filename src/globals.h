@@ -80,9 +80,15 @@ struct JoystickKeymap
 #endif
 };
 
+struct Screen {
+  SDL_Renderer* render;
+  SDL_Window* window;
+  int w,h;
+};
+
 extern JoystickKeymap joystick_keymap;
 
-extern SDL_Surface * screen;
+extern Screen* screen;
 extern Text* black_text;
 extern Text* gold_text;
 extern Text* silver_text;

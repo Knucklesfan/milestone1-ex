@@ -284,7 +284,6 @@ CMakeFiles/supertux.dir/world.cpp.o: \
  /usr/include/c++/12.2.0/bits/vector.tcc \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.h \
- /usr/include/SDL2/SDL.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/defines.h \
