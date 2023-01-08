@@ -68,8 +68,8 @@
 /* Screen properties: */
 /* Don't use this to test for the actual screen sizes. Use screen->w/h instead! */
 #ifndef RES320X240
-#define SCREEN_W 1920
-#define SCREEN_H 1080
+#define SCREEN_W 640
+#define SCREEN_H 480
 #else
 #define SCREEN_W 320
 #define SCREEN_H 240
@@ -845,6 +845,8 @@ void st_video_setup_sdl(void)
 
         exit(1);
   }
+  screen->w = SCREEN_W;
+  screen->h = SCREEN_H;
     SDL_SetRenderDrawBlendMode(screen->render, SDL_BLENDMODE_BLEND);
     SDL_RenderSetLogicalSize(screen->render, SCREEN_W, SCREEN_H);
 
@@ -852,6 +854,7 @@ void st_video_setup_sdl(void)
 
 void st_video_setup_gl(void)
 {
+  screen = new Screen();
 #ifndef NOOPENGL
 
   SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 5);

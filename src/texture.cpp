@@ -535,15 +535,20 @@ SurfaceOpenGL::create_gl(SDL_Surface * surf, GLuint * tex)
 
   glGenTextures(1, &*tex);
   glBindTexture(GL_TEXTURE_2D , *tex);
+  int Mode = GL_RGB;
+
+  if(surf->format->BytesPerPixel == 4) {
+    Mode = GL_RGBA;
+  }
+  
+  glTexImage2D(GL_TEXTURE_2D, 0, Mode, surf->w, surf->h, 0, Mode, GL_UNSIGNED_BYTE, surf->pixels);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-  glPixelStorei(GL_UNPACK_ROW_LENGTH, conv->pitch / conv->format->BytesPerPixel);
-  glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB10_A2, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, conv->pixels);
-  glPixelStorei(GL_UNPACK_ROW_LENGTH, 0);
 
   SDL_FreeSurface(conv);
+//glPixelStorei(GL_UNPACK_ROW_LENGTH, row_length); // row_length = pitch / bytes_per_pixel
 }
 
 int
@@ -744,6 +749,7 @@ SurfaceSDL::draw_part(float sx, float sy, float x, float y, float w, float h, Ui
     SDL_SetTextureAlphaMod(texture,alpha);
     SDL_RenderCopy(screen->render, texture, &src, &dest);
     SDL_SetTextureAlphaMod(texture,255);
+    return 1;
 
 }
 

@@ -73,505 +73,505 @@ CMakeFiles/supertux.dir/world.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/world.cpp.o: world.cpp
 CMakeFiles/supertux.dir/world.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/supertux.dir/world.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/world.cpp.o -MF CMakeFiles/supertux.dir/world.cpp.o.d -o CMakeFiles/supertux.dir/world.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/world.cpp.o -MF CMakeFiles/supertux.dir/world.cpp.o.d -o CMakeFiles/supertux.dir/world.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.cpp
 
 CMakeFiles/supertux.dir/world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/world.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.cpp > CMakeFiles/supertux.dir/world.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.cpp > CMakeFiles/supertux.dir/world.cpp.i
 
 CMakeFiles/supertux.dir/world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/world.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.cpp -o CMakeFiles/supertux.dir/world.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.cpp -o CMakeFiles/supertux.dir/world.cpp.s
 
 CMakeFiles/supertux.dir/type.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/type.cpp.o: type.cpp
 CMakeFiles/supertux.dir/type.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/supertux.dir/type.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/type.cpp.o -MF CMakeFiles/supertux.dir/type.cpp.o.d -o CMakeFiles/supertux.dir/type.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/type.cpp.o -MF CMakeFiles/supertux.dir/type.cpp.o.d -o CMakeFiles/supertux.dir/type.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.cpp
 
 CMakeFiles/supertux.dir/type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/type.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.cpp > CMakeFiles/supertux.dir/type.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.cpp > CMakeFiles/supertux.dir/type.cpp.i
 
 CMakeFiles/supertux.dir/type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/type.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.cpp -o CMakeFiles/supertux.dir/type.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/type.cpp -o CMakeFiles/supertux.dir/type.cpp.s
 
 CMakeFiles/supertux.dir/texture.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/texture.cpp.o: texture.cpp
 CMakeFiles/supertux.dir/texture.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/supertux.dir/texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/texture.cpp.o -MF CMakeFiles/supertux.dir/texture.cpp.o.d -o CMakeFiles/supertux.dir/texture.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/texture.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/texture.cpp.o -MF CMakeFiles/supertux.dir/texture.cpp.o.d -o CMakeFiles/supertux.dir/texture.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/texture.cpp
 
 CMakeFiles/supertux.dir/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/texture.cpp > CMakeFiles/supertux.dir/texture.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/texture.cpp > CMakeFiles/supertux.dir/texture.cpp.i
 
 CMakeFiles/supertux.dir/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/texture.cpp -o CMakeFiles/supertux.dir/texture.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/texture.cpp -o CMakeFiles/supertux.dir/texture.cpp.s
 
 CMakeFiles/supertux.dir/mousecursor.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/mousecursor.cpp.o: mousecursor.cpp
 CMakeFiles/supertux.dir/mousecursor.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/supertux.dir/mousecursor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/mousecursor.cpp.o -MF CMakeFiles/supertux.dir/mousecursor.cpp.o.d -o CMakeFiles/supertux.dir/mousecursor.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/mousecursor.cpp.o -MF CMakeFiles/supertux.dir/mousecursor.cpp.o.d -o CMakeFiles/supertux.dir/mousecursor.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.cpp
 
 CMakeFiles/supertux.dir/mousecursor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/mousecursor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.cpp > CMakeFiles/supertux.dir/mousecursor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.cpp > CMakeFiles/supertux.dir/mousecursor.cpp.i
 
 CMakeFiles/supertux.dir/mousecursor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/mousecursor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.cpp -o CMakeFiles/supertux.dir/mousecursor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/mousecursor.cpp -o CMakeFiles/supertux.dir/mousecursor.cpp.s
 
 CMakeFiles/supertux.dir/worldmap.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/worldmap.cpp.o: worldmap.cpp
 CMakeFiles/supertux.dir/worldmap.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/supertux.dir/worldmap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/worldmap.cpp.o -MF CMakeFiles/supertux.dir/worldmap.cpp.o.d -o CMakeFiles/supertux.dir/worldmap.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/worldmap.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/worldmap.cpp.o -MF CMakeFiles/supertux.dir/worldmap.cpp.o.d -o CMakeFiles/supertux.dir/worldmap.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/worldmap.cpp
 
 CMakeFiles/supertux.dir/worldmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/worldmap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/worldmap.cpp > CMakeFiles/supertux.dir/worldmap.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/worldmap.cpp > CMakeFiles/supertux.dir/worldmap.cpp.i
 
 CMakeFiles/supertux.dir/worldmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/worldmap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/worldmap.cpp -o CMakeFiles/supertux.dir/worldmap.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/worldmap.cpp -o CMakeFiles/supertux.dir/worldmap.cpp.s
 
 CMakeFiles/supertux.dir/high_scores.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/high_scores.cpp.o: high_scores.cpp
 CMakeFiles/supertux.dir/high_scores.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/supertux.dir/high_scores.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/high_scores.cpp.o -MF CMakeFiles/supertux.dir/high_scores.cpp.o.d -o CMakeFiles/supertux.dir/high_scores.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/high_scores.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/high_scores.cpp.o -MF CMakeFiles/supertux.dir/high_scores.cpp.o.d -o CMakeFiles/supertux.dir/high_scores.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/high_scores.cpp
 
 CMakeFiles/supertux.dir/high_scores.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/high_scores.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/high_scores.cpp > CMakeFiles/supertux.dir/high_scores.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/high_scores.cpp > CMakeFiles/supertux.dir/high_scores.cpp.i
 
 CMakeFiles/supertux.dir/high_scores.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/high_scores.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/high_scores.cpp -o CMakeFiles/supertux.dir/high_scores.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/high_scores.cpp -o CMakeFiles/supertux.dir/high_scores.cpp.s
 
 CMakeFiles/supertux.dir/particlesystem.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/particlesystem.cpp.o: particlesystem.cpp
 CMakeFiles/supertux.dir/particlesystem.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/supertux.dir/particlesystem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/particlesystem.cpp.o -MF CMakeFiles/supertux.dir/particlesystem.cpp.o.d -o CMakeFiles/supertux.dir/particlesystem.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/particlesystem.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/particlesystem.cpp.o -MF CMakeFiles/supertux.dir/particlesystem.cpp.o.d -o CMakeFiles/supertux.dir/particlesystem.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/particlesystem.cpp
 
 CMakeFiles/supertux.dir/particlesystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/particlesystem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/particlesystem.cpp > CMakeFiles/supertux.dir/particlesystem.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/particlesystem.cpp > CMakeFiles/supertux.dir/particlesystem.cpp.i
 
 CMakeFiles/supertux.dir/particlesystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/particlesystem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/particlesystem.cpp -o CMakeFiles/supertux.dir/particlesystem.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/particlesystem.cpp -o CMakeFiles/supertux.dir/particlesystem.cpp.s
 
 CMakeFiles/supertux.dir/lispreader.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/lispreader.cpp.o: lispreader.cpp
 CMakeFiles/supertux.dir/lispreader.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/supertux.dir/lispreader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/lispreader.cpp.o -MF CMakeFiles/supertux.dir/lispreader.cpp.o.d -o CMakeFiles/supertux.dir/lispreader.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/lispreader.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/lispreader.cpp.o -MF CMakeFiles/supertux.dir/lispreader.cpp.o.d -o CMakeFiles/supertux.dir/lispreader.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/lispreader.cpp
 
 CMakeFiles/supertux.dir/lispreader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/lispreader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/lispreader.cpp > CMakeFiles/supertux.dir/lispreader.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/lispreader.cpp > CMakeFiles/supertux.dir/lispreader.cpp.i
 
 CMakeFiles/supertux.dir/lispreader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/lispreader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/lispreader.cpp -o CMakeFiles/supertux.dir/lispreader.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/lispreader.cpp -o CMakeFiles/supertux.dir/lispreader.cpp.s
 
 CMakeFiles/supertux.dir/special.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/special.cpp.o: special.cpp
 CMakeFiles/supertux.dir/special.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/supertux.dir/special.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/special.cpp.o -MF CMakeFiles/supertux.dir/special.cpp.o.d -o CMakeFiles/supertux.dir/special.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/special.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/special.cpp.o -MF CMakeFiles/supertux.dir/special.cpp.o.d -o CMakeFiles/supertux.dir/special.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/special.cpp
 
 CMakeFiles/supertux.dir/special.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/special.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/special.cpp > CMakeFiles/supertux.dir/special.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/special.cpp > CMakeFiles/supertux.dir/special.cpp.i
 
 CMakeFiles/supertux.dir/special.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/special.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/special.cpp -o CMakeFiles/supertux.dir/special.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/special.cpp -o CMakeFiles/supertux.dir/special.cpp.s
 
 CMakeFiles/supertux.dir/player.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/player.cpp.o: player.cpp
 CMakeFiles/supertux.dir/player.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/supertux.dir/player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/player.cpp.o -MF CMakeFiles/supertux.dir/player.cpp.o.d -o CMakeFiles/supertux.dir/player.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/player.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/player.cpp.o -MF CMakeFiles/supertux.dir/player.cpp.o.d -o CMakeFiles/supertux.dir/player.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/player.cpp
 
 CMakeFiles/supertux.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/player.cpp > CMakeFiles/supertux.dir/player.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/player.cpp > CMakeFiles/supertux.dir/player.cpp.i
 
 CMakeFiles/supertux.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/player.cpp -o CMakeFiles/supertux.dir/player.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/player.cpp -o CMakeFiles/supertux.dir/player.cpp.s
 
 CMakeFiles/supertux.dir/menu.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/menu.cpp.o: menu.cpp
 CMakeFiles/supertux.dir/menu.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/supertux.dir/menu.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/menu.cpp.o -MF CMakeFiles/supertux.dir/menu.cpp.o.d -o CMakeFiles/supertux.dir/menu.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/menu.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/menu.cpp.o -MF CMakeFiles/supertux.dir/menu.cpp.o.d -o CMakeFiles/supertux.dir/menu.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/menu.cpp
 
 CMakeFiles/supertux.dir/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/menu.cpp > CMakeFiles/supertux.dir/menu.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/menu.cpp > CMakeFiles/supertux.dir/menu.cpp.i
 
 CMakeFiles/supertux.dir/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/menu.cpp -o CMakeFiles/supertux.dir/menu.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/menu.cpp -o CMakeFiles/supertux.dir/menu.cpp.s
 
 CMakeFiles/supertux.dir/text.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/text.cpp.o: text.cpp
 CMakeFiles/supertux.dir/text.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/supertux.dir/text.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/text.cpp.o -MF CMakeFiles/supertux.dir/text.cpp.o.d -o CMakeFiles/supertux.dir/text.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/text.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/text.cpp.o -MF CMakeFiles/supertux.dir/text.cpp.o.d -o CMakeFiles/supertux.dir/text.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/text.cpp
 
 CMakeFiles/supertux.dir/text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/text.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/text.cpp > CMakeFiles/supertux.dir/text.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/text.cpp > CMakeFiles/supertux.dir/text.cpp.i
 
 CMakeFiles/supertux.dir/text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/text.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/text.cpp -o CMakeFiles/supertux.dir/text.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/text.cpp -o CMakeFiles/supertux.dir/text.cpp.s
 
 CMakeFiles/supertux.dir/button.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/button.cpp.o: button.cpp
 CMakeFiles/supertux.dir/button.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/supertux.dir/button.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/button.cpp.o -MF CMakeFiles/supertux.dir/button.cpp.o.d -o CMakeFiles/supertux.dir/button.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/button.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/button.cpp.o -MF CMakeFiles/supertux.dir/button.cpp.o.d -o CMakeFiles/supertux.dir/button.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/button.cpp
 
 CMakeFiles/supertux.dir/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/button.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/button.cpp > CMakeFiles/supertux.dir/button.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/button.cpp > CMakeFiles/supertux.dir/button.cpp.i
 
 CMakeFiles/supertux.dir/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/button.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/button.cpp -o CMakeFiles/supertux.dir/button.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/button.cpp -o CMakeFiles/supertux.dir/button.cpp.s
 
 CMakeFiles/supertux.dir/supertux.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/supertux.cpp.o: supertux.cpp
 CMakeFiles/supertux.dir/supertux.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/supertux.dir/supertux.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/supertux.cpp.o -MF CMakeFiles/supertux.dir/supertux.cpp.o.d -o CMakeFiles/supertux.dir/supertux.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/supertux.cpp.o -MF CMakeFiles/supertux.dir/supertux.cpp.o.d -o CMakeFiles/supertux.dir/supertux.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux.cpp
 
 CMakeFiles/supertux.dir/supertux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/supertux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux.cpp > CMakeFiles/supertux.dir/supertux.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux.cpp > CMakeFiles/supertux.dir/supertux.cpp.i
 
 CMakeFiles/supertux.dir/supertux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/supertux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux.cpp -o CMakeFiles/supertux.dir/supertux.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux.cpp -o CMakeFiles/supertux.dir/supertux.cpp.s
 
 CMakeFiles/supertux.dir/physic.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/physic.cpp.o: physic.cpp
 CMakeFiles/supertux.dir/physic.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/supertux.dir/physic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/physic.cpp.o -MF CMakeFiles/supertux.dir/physic.cpp.o.d -o CMakeFiles/supertux.dir/physic.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/physic.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/physic.cpp.o -MF CMakeFiles/supertux.dir/physic.cpp.o.d -o CMakeFiles/supertux.dir/physic.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/physic.cpp
 
 CMakeFiles/supertux.dir/physic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/physic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/physic.cpp > CMakeFiles/supertux.dir/physic.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/physic.cpp > CMakeFiles/supertux.dir/physic.cpp.i
 
 CMakeFiles/supertux.dir/physic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/physic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/physic.cpp -o CMakeFiles/supertux.dir/physic.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/physic.cpp -o CMakeFiles/supertux.dir/physic.cpp.s
 
 CMakeFiles/supertux.dir/badguy.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/badguy.cpp.o: badguy.cpp
 CMakeFiles/supertux.dir/badguy.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/supertux.dir/badguy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/badguy.cpp.o -MF CMakeFiles/supertux.dir/badguy.cpp.o.d -o CMakeFiles/supertux.dir/badguy.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/badguy.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/badguy.cpp.o -MF CMakeFiles/supertux.dir/badguy.cpp.o.d -o CMakeFiles/supertux.dir/badguy.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/badguy.cpp
 
 CMakeFiles/supertux.dir/badguy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/badguy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/badguy.cpp > CMakeFiles/supertux.dir/badguy.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/badguy.cpp > CMakeFiles/supertux.dir/badguy.cpp.i
 
 CMakeFiles/supertux.dir/badguy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/badguy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/badguy.cpp -o CMakeFiles/supertux.dir/badguy.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/badguy.cpp -o CMakeFiles/supertux.dir/badguy.cpp.s
 
 CMakeFiles/supertux.dir/setup.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/setup.cpp.o: setup.cpp
 CMakeFiles/supertux.dir/setup.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/supertux.dir/setup.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/setup.cpp.o -MF CMakeFiles/supertux.dir/setup.cpp.o.d -o CMakeFiles/supertux.dir/setup.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/setup.cpp.o -MF CMakeFiles/supertux.dir/setup.cpp.o.d -o CMakeFiles/supertux.dir/setup.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.cpp
 
 CMakeFiles/supertux.dir/setup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/setup.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.cpp > CMakeFiles/supertux.dir/setup.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.cpp > CMakeFiles/supertux.dir/setup.cpp.i
 
 CMakeFiles/supertux.dir/setup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/setup.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.cpp -o CMakeFiles/supertux.dir/setup.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.cpp -o CMakeFiles/supertux.dir/setup.cpp.s
 
 CMakeFiles/supertux.dir/leveleditor.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/leveleditor.cpp.o: leveleditor.cpp
 CMakeFiles/supertux.dir/leveleditor.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/supertux.dir/leveleditor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/leveleditor.cpp.o -MF CMakeFiles/supertux.dir/leveleditor.cpp.o.d -o CMakeFiles/supertux.dir/leveleditor.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/leveleditor.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/leveleditor.cpp.o -MF CMakeFiles/supertux.dir/leveleditor.cpp.o.d -o CMakeFiles/supertux.dir/leveleditor.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/leveleditor.cpp
 
 CMakeFiles/supertux.dir/leveleditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/leveleditor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/leveleditor.cpp > CMakeFiles/supertux.dir/leveleditor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/leveleditor.cpp > CMakeFiles/supertux.dir/leveleditor.cpp.i
 
 CMakeFiles/supertux.dir/leveleditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/leveleditor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/leveleditor.cpp -o CMakeFiles/supertux.dir/leveleditor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/leveleditor.cpp -o CMakeFiles/supertux.dir/leveleditor.cpp.s
 
 CMakeFiles/supertux.dir/level.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/level.cpp.o: level.cpp
 CMakeFiles/supertux.dir/level.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/supertux.dir/level.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/level.cpp.o -MF CMakeFiles/supertux.dir/level.cpp.o.d -o CMakeFiles/supertux.dir/level.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/level.cpp.o -MF CMakeFiles/supertux.dir/level.cpp.o.d -o CMakeFiles/supertux.dir/level.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.cpp
 
 CMakeFiles/supertux.dir/level.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/level.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.cpp > CMakeFiles/supertux.dir/level.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.cpp > CMakeFiles/supertux.dir/level.cpp.i
 
 CMakeFiles/supertux.dir/level.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/level.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.cpp -o CMakeFiles/supertux.dir/level.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.cpp -o CMakeFiles/supertux.dir/level.cpp.s
 
 CMakeFiles/supertux.dir/sound.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/sound.cpp.o: sound.cpp
 CMakeFiles/supertux.dir/sound.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/supertux.dir/sound.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/sound.cpp.o -MF CMakeFiles/supertux.dir/sound.cpp.o.d -o CMakeFiles/supertux.dir/sound.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sound.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/sound.cpp.o -MF CMakeFiles/supertux.dir/sound.cpp.o.d -o CMakeFiles/supertux.dir/sound.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sound.cpp
 
 CMakeFiles/supertux.dir/sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/sound.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sound.cpp > CMakeFiles/supertux.dir/sound.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sound.cpp > CMakeFiles/supertux.dir/sound.cpp.i
 
 CMakeFiles/supertux.dir/sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/sound.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sound.cpp -o CMakeFiles/supertux.dir/sound.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sound.cpp -o CMakeFiles/supertux.dir/sound.cpp.s
 
 CMakeFiles/supertux.dir/music_manager.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/music_manager.cpp.o: music_manager.cpp
 CMakeFiles/supertux.dir/music_manager.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/supertux.dir/music_manager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/music_manager.cpp.o -MF CMakeFiles/supertux.dir/music_manager.cpp.o.d -o CMakeFiles/supertux.dir/music_manager.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/music_manager.cpp.o -MF CMakeFiles/supertux.dir/music_manager.cpp.o.d -o CMakeFiles/supertux.dir/music_manager.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.cpp
 
 CMakeFiles/supertux.dir/music_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/music_manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.cpp > CMakeFiles/supertux.dir/music_manager.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.cpp > CMakeFiles/supertux.dir/music_manager.cpp.i
 
 CMakeFiles/supertux.dir/music_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/music_manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.cpp -o CMakeFiles/supertux.dir/music_manager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.cpp -o CMakeFiles/supertux.dir/music_manager.cpp.s
 
 CMakeFiles/supertux.dir/tile.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/tile.cpp.o: tile.cpp
 CMakeFiles/supertux.dir/tile.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/supertux.dir/tile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/tile.cpp.o -MF CMakeFiles/supertux.dir/tile.cpp.o.d -o CMakeFiles/supertux.dir/tile.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/tile.cpp.o -MF CMakeFiles/supertux.dir/tile.cpp.o.d -o CMakeFiles/supertux.dir/tile.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.cpp
 
 CMakeFiles/supertux.dir/tile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/tile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.cpp > CMakeFiles/supertux.dir/tile.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.cpp > CMakeFiles/supertux.dir/tile.cpp.i
 
 CMakeFiles/supertux.dir/tile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/tile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.cpp -o CMakeFiles/supertux.dir/tile.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.cpp -o CMakeFiles/supertux.dir/tile.cpp.s
 
 CMakeFiles/supertux.dir/resources.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/resources.cpp.o: resources.cpp
 CMakeFiles/supertux.dir/resources.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/supertux.dir/resources.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/resources.cpp.o -MF CMakeFiles/supertux.dir/resources.cpp.o.d -o CMakeFiles/supertux.dir/resources.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/resources.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/resources.cpp.o -MF CMakeFiles/supertux.dir/resources.cpp.o.d -o CMakeFiles/supertux.dir/resources.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/resources.cpp
 
 CMakeFiles/supertux.dir/resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/resources.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/resources.cpp > CMakeFiles/supertux.dir/resources.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/resources.cpp > CMakeFiles/supertux.dir/resources.cpp.i
 
 CMakeFiles/supertux.dir/resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/resources.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/resources.cpp -o CMakeFiles/supertux.dir/resources.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/resources.cpp -o CMakeFiles/supertux.dir/resources.cpp.s
 
 CMakeFiles/supertux.dir/title.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/title.cpp.o: title.cpp
 CMakeFiles/supertux.dir/title.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/supertux.dir/title.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/title.cpp.o -MF CMakeFiles/supertux.dir/title.cpp.o.d -o CMakeFiles/supertux.dir/title.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/title.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/title.cpp.o -MF CMakeFiles/supertux.dir/title.cpp.o.d -o CMakeFiles/supertux.dir/title.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/title.cpp
 
 CMakeFiles/supertux.dir/title.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/title.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/title.cpp > CMakeFiles/supertux.dir/title.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/title.cpp > CMakeFiles/supertux.dir/title.cpp.i
 
 CMakeFiles/supertux.dir/title.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/title.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/title.cpp -o CMakeFiles/supertux.dir/title.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/title.cpp -o CMakeFiles/supertux.dir/title.cpp.s
 
 CMakeFiles/supertux.dir/sprite_manager.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/sprite_manager.cpp.o: sprite_manager.cpp
 CMakeFiles/supertux.dir/sprite_manager.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/supertux.dir/sprite_manager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/sprite_manager.cpp.o -MF CMakeFiles/supertux.dir/sprite_manager.cpp.o.d -o CMakeFiles/supertux.dir/sprite_manager.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite_manager.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/sprite_manager.cpp.o -MF CMakeFiles/supertux.dir/sprite_manager.cpp.o.d -o CMakeFiles/supertux.dir/sprite_manager.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite_manager.cpp
 
 CMakeFiles/supertux.dir/sprite_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/sprite_manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite_manager.cpp > CMakeFiles/supertux.dir/sprite_manager.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite_manager.cpp > CMakeFiles/supertux.dir/sprite_manager.cpp.i
 
 CMakeFiles/supertux.dir/sprite_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/sprite_manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite_manager.cpp -o CMakeFiles/supertux.dir/sprite_manager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite_manager.cpp -o CMakeFiles/supertux.dir/sprite_manager.cpp.s
 
 CMakeFiles/supertux.dir/musicref.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/musicref.cpp.o: musicref.cpp
 CMakeFiles/supertux.dir/musicref.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/supertux.dir/musicref.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/musicref.cpp.o -MF CMakeFiles/supertux.dir/musicref.cpp.o.d -o CMakeFiles/supertux.dir/musicref.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/musicref.cpp.o -MF CMakeFiles/supertux.dir/musicref.cpp.o.d -o CMakeFiles/supertux.dir/musicref.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.cpp
 
 CMakeFiles/supertux.dir/musicref.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/musicref.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.cpp > CMakeFiles/supertux.dir/musicref.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.cpp > CMakeFiles/supertux.dir/musicref.cpp.i
 
 CMakeFiles/supertux.dir/musicref.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/musicref.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.cpp -o CMakeFiles/supertux.dir/musicref.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.cpp -o CMakeFiles/supertux.dir/musicref.cpp.s
 
 CMakeFiles/supertux.dir/intro.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/intro.cpp.o: intro.cpp
 CMakeFiles/supertux.dir/intro.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/supertux.dir/intro.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/intro.cpp.o -MF CMakeFiles/supertux.dir/intro.cpp.o.d -o CMakeFiles/supertux.dir/intro.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/intro.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/intro.cpp.o -MF CMakeFiles/supertux.dir/intro.cpp.o.d -o CMakeFiles/supertux.dir/intro.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/intro.cpp
 
 CMakeFiles/supertux.dir/intro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/intro.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/intro.cpp > CMakeFiles/supertux.dir/intro.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/intro.cpp > CMakeFiles/supertux.dir/intro.cpp.i
 
 CMakeFiles/supertux.dir/intro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/intro.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/intro.cpp -o CMakeFiles/supertux.dir/intro.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/intro.cpp -o CMakeFiles/supertux.dir/intro.cpp.s
 
 CMakeFiles/supertux.dir/timer.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/timer.cpp.o: timer.cpp
 CMakeFiles/supertux.dir/timer.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/supertux.dir/timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/timer.cpp.o -MF CMakeFiles/supertux.dir/timer.cpp.o.d -o CMakeFiles/supertux.dir/timer.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/timer.cpp.o -MF CMakeFiles/supertux.dir/timer.cpp.o.d -o CMakeFiles/supertux.dir/timer.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.cpp
 
 CMakeFiles/supertux.dir/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.cpp > CMakeFiles/supertux.dir/timer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.cpp > CMakeFiles/supertux.dir/timer.cpp.i
 
 CMakeFiles/supertux.dir/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.cpp -o CMakeFiles/supertux.dir/timer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/timer.cpp -o CMakeFiles/supertux.dir/timer.cpp.s
 
 CMakeFiles/supertux.dir/gameobjs.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/gameobjs.cpp.o: gameobjs.cpp
 CMakeFiles/supertux.dir/gameobjs.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/supertux.dir/gameobjs.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/gameobjs.cpp.o -MF CMakeFiles/supertux.dir/gameobjs.cpp.o.d -o CMakeFiles/supertux.dir/gameobjs.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/gameobjs.cpp.o -MF CMakeFiles/supertux.dir/gameobjs.cpp.o.d -o CMakeFiles/supertux.dir/gameobjs.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp
 
 CMakeFiles/supertux.dir/gameobjs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/gameobjs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp > CMakeFiles/supertux.dir/gameobjs.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp > CMakeFiles/supertux.dir/gameobjs.cpp.i
 
 CMakeFiles/supertux.dir/gameobjs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/gameobjs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp -o CMakeFiles/supertux.dir/gameobjs.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp -o CMakeFiles/supertux.dir/gameobjs.cpp.s
 
 CMakeFiles/supertux.dir/screen.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/screen.cpp.o: screen.cpp
 CMakeFiles/supertux.dir/screen.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/supertux.dir/screen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/screen.cpp.o -MF CMakeFiles/supertux.dir/screen.cpp.o.d -o CMakeFiles/supertux.dir/screen.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/screen.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/screen.cpp.o -MF CMakeFiles/supertux.dir/screen.cpp.o.d -o CMakeFiles/supertux.dir/screen.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/screen.cpp
 
 CMakeFiles/supertux.dir/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/screen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/screen.cpp > CMakeFiles/supertux.dir/screen.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/screen.cpp > CMakeFiles/supertux.dir/screen.cpp.i
 
 CMakeFiles/supertux.dir/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/screen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/screen.cpp -o CMakeFiles/supertux.dir/screen.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/screen.cpp -o CMakeFiles/supertux.dir/screen.cpp.s
 
 CMakeFiles/supertux.dir/gameloop.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/gameloop.cpp.o: gameloop.cpp
 CMakeFiles/supertux.dir/gameloop.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/supertux.dir/gameloop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/gameloop.cpp.o -MF CMakeFiles/supertux.dir/gameloop.cpp.o.d -o CMakeFiles/supertux.dir/gameloop.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/gameloop.cpp.o -MF CMakeFiles/supertux.dir/gameloop.cpp.o.d -o CMakeFiles/supertux.dir/gameloop.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.cpp
 
 CMakeFiles/supertux.dir/gameloop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/gameloop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.cpp > CMakeFiles/supertux.dir/gameloop.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.cpp > CMakeFiles/supertux.dir/gameloop.cpp.i
 
 CMakeFiles/supertux.dir/gameloop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/gameloop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.cpp -o CMakeFiles/supertux.dir/gameloop.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.cpp -o CMakeFiles/supertux.dir/gameloop.cpp.s
 
 CMakeFiles/supertux.dir/sprite.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/sprite.cpp.o: sprite.cpp
 CMakeFiles/supertux.dir/sprite.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/supertux.dir/sprite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/sprite.cpp.o -MF CMakeFiles/supertux.dir/sprite.cpp.o.d -o CMakeFiles/supertux.dir/sprite.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/sprite.cpp.o -MF CMakeFiles/supertux.dir/sprite.cpp.o.d -o CMakeFiles/supertux.dir/sprite.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite.cpp
 
 CMakeFiles/supertux.dir/sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/sprite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite.cpp > CMakeFiles/supertux.dir/sprite.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite.cpp > CMakeFiles/supertux.dir/sprite.cpp.i
 
 CMakeFiles/supertux.dir/sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/sprite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite.cpp -o CMakeFiles/supertux.dir/sprite.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/sprite.cpp -o CMakeFiles/supertux.dir/sprite.cpp.s
 
 CMakeFiles/supertux.dir/collision.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/collision.cpp.o: collision.cpp
 CMakeFiles/supertux.dir/collision.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/supertux.dir/collision.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/collision.cpp.o -MF CMakeFiles/supertux.dir/collision.cpp.o.d -o CMakeFiles/supertux.dir/collision.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/collision.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/collision.cpp.o -MF CMakeFiles/supertux.dir/collision.cpp.o.d -o CMakeFiles/supertux.dir/collision.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/collision.cpp
 
 CMakeFiles/supertux.dir/collision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/collision.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/collision.cpp > CMakeFiles/supertux.dir/collision.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/collision.cpp > CMakeFiles/supertux.dir/collision.cpp.i
 
 CMakeFiles/supertux.dir/collision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/collision.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/collision.cpp -o CMakeFiles/supertux.dir/collision.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/collision.cpp -o CMakeFiles/supertux.dir/collision.cpp.s
 
 CMakeFiles/supertux.dir/globals.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/globals.cpp.o: globals.cpp
 CMakeFiles/supertux.dir/globals.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/supertux.dir/globals.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/globals.cpp.o -MF CMakeFiles/supertux.dir/globals.cpp.o.d -o CMakeFiles/supertux.dir/globals.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/globals.cpp.o -MF CMakeFiles/supertux.dir/globals.cpp.o.d -o CMakeFiles/supertux.dir/globals.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp
 
 CMakeFiles/supertux.dir/globals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/globals.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp > CMakeFiles/supertux.dir/globals.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp > CMakeFiles/supertux.dir/globals.cpp.i
 
 CMakeFiles/supertux.dir/globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/globals.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp -o CMakeFiles/supertux.dir/globals.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp -o CMakeFiles/supertux.dir/globals.cpp.s
 
 CMakeFiles/supertux.dir/scene.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/scene.cpp.o: scene.cpp
 CMakeFiles/supertux.dir/scene.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/supertux.dir/scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/scene.cpp.o -MF CMakeFiles/supertux.dir/scene.cpp.o.d -o CMakeFiles/supertux.dir/scene.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/scene.cpp.o -MF CMakeFiles/supertux.dir/scene.cpp.o.d -o CMakeFiles/supertux.dir/scene.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.cpp
 
 CMakeFiles/supertux.dir/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.cpp > CMakeFiles/supertux.dir/scene.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.cpp > CMakeFiles/supertux.dir/scene.cpp.i
 
 CMakeFiles/supertux.dir/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.cpp -o CMakeFiles/supertux.dir/scene.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/scene.cpp -o CMakeFiles/supertux.dir/scene.cpp.s
 
 CMakeFiles/supertux.dir/configfile.cpp.o: CMakeFiles/supertux.dir/flags.make
 CMakeFiles/supertux.dir/configfile.cpp.o: configfile.cpp
 CMakeFiles/supertux.dir/configfile.cpp.o: CMakeFiles/supertux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/supertux.dir/configfile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/configfile.cpp.o -MF CMakeFiles/supertux.dir/configfile.cpp.o.d -o CMakeFiles/supertux.dir/configfile.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/configfile.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/supertux.dir/configfile.cpp.o -MF CMakeFiles/supertux.dir/configfile.cpp.o.d -o CMakeFiles/supertux.dir/configfile.cpp.o -c /home/knucklesfan/Documents/GitHub/milestone1-ex/src/configfile.cpp
 
 CMakeFiles/supertux.dir/configfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/supertux.dir/configfile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/configfile.cpp > CMakeFiles/supertux.dir/configfile.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/knucklesfan/Documents/GitHub/milestone1-ex/src/configfile.cpp > CMakeFiles/supertux.dir/configfile.cpp.i
 
 CMakeFiles/supertux.dir/configfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/supertux.dir/configfile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/configfile.cpp -o CMakeFiles/supertux.dir/configfile.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/knucklesfan/Documents/GitHub/milestone1-ex/src/configfile.cpp -o CMakeFiles/supertux.dir/configfile.cpp.s
 
 # Object files for target supertux
 supertux_OBJECTS = \

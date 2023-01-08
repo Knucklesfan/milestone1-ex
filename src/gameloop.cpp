@@ -753,7 +753,8 @@ GameSession::run()
   // Eat unneeded events
   SDL_Event event;
   while (SDL_PollEvent(&event)) {}
-
+  
+  clearscreen(0,0,0);
   draw();
 
   while (exit_status == ES_NONE)
@@ -794,6 +795,7 @@ GameSession::run()
           SDL_Delay(50);
         }
 
+      clearscreen(0,0,0);
       draw();
 
       /* Time stops in pause mode */
