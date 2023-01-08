@@ -185,7 +185,6 @@ World::draw()
 
   /* Draw the real background */
   if(level->backg) {
-    level->backg->logic(100);
     level->backg->render(screen->render,false);
   }
   else if(level->img_bkgd)
@@ -288,6 +287,14 @@ World::draw()
 void
 World::action(double frame_ratio)
 {
+  if(level->backg) {
+    int s = (int)((float)scroll_x * ((float)level->bkgd_speed/100.0f));
+    for(int i = 0; i < 10; i++) {
+      level->backg->layerposx[i] =-s*(10/level->backg->incrementsx[i]);
+    }
+    level->backg->logic(frame_ratio*10);
+  
+  }
   tux.action(frame_ratio);
   tux.check_bounds(level->back_scrolling, (bool)level->hor_autoscroll_speed);
   scrolling(frame_ratio);
