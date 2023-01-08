@@ -8,6 +8,7 @@
   (start_pos_x    100)
   (start_pos_y    100)
   (background "arctis3.jpg")
+  (newbg "grids")
   (music "condom corruption.mod")
   (bkgd_red_top    150)
   (bkgd_green_top  150)

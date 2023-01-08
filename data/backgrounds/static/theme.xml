@@ -1,0 +1,23 @@
+<name>Statically Typed</name>
+<creator>Knuxfan</creator>
+<vers>1.0</vers>
+
+<layers>4</layers>
+
+<layer0>0</layer0>
+<layer0y>0</layer0y>
+
+<layer1>5</layer1>
+<layer1y>5</layer1y>
+
+<layer2>2</layer2>
+<layer2y>2</layer2y>
+
+<layer3>1</layer3>
+<layer3y>1</layer3y>
+
+
+<music>song.mod</music>
+<musicname>Jump (FunkyRemix)</musicname>
+<musicartist>Marco Schindler</musicartist>
+<thumbnail>thumbnail.nonanex.bmp</thumbnail>

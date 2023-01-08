@@ -1,0 +1,22 @@
+<name>SMW Cave</name>
+<creator>Knuxfan</creator>
+<vers>1.0</vers>
+
+<layers>4</layers>
+
+<layer0>0</layer0>
+<layer0y>0</layer0y>
+
+<layer1>0</layer1>
+<layer1y>5</layer1y>
+
+<layer2>0</layer2>
+<layer2y>2</layer2y>
+
+<layer3>0</layer3>
+<layer3y>100</layer3y>
+
+<music>song.xm</music>
+<musicname>Lost without (her)</musicname>
+<musicartist>DROZERiX</musicartist>
+<thumbnail>thumbnail.nonanex.bmp</thumbnail>

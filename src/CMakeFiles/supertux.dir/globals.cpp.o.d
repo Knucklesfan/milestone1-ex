@@ -1,4 +1,4 @@
-CMakeFiles/supertux.dir/globals.cpp.o: \
+src/CMakeFiles/supertux.dir/globals.cpp.o: \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.cpp \
  /usr/include/stdc-predef.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/globals.h \
@@ -10,7 +10,6 @@ CMakeFiles/supertux.dir/globals.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/12.2.0/pstl/pstl_config.h \
  /usr/include/c++/12.2.0/bits/stringfwd.h \
  /usr/include/c++/12.2.0/bits/memoryfwd.h \
  /usr/include/c++/12.2.0/bits/char_traits.h \
@@ -68,10 +67,6 @@ CMakeFiles/supertux.dir/globals.cpp.o: \
  /usr/include/c++/12.2.0/ext/alloc_traits.h \
  /usr/include/c++/12.2.0/bits/alloc_traits.h \
  /usr/include/c++/12.2.0/bits/stl_construct.h \
- /usr/include/c++/12.2.0/string_view \
- /usr/include/c++/12.2.0/bits/functional_hash.h \
- /usr/include/c++/12.2.0/bits/hash_bytes.h \
- /usr/include/c++/12.2.0/bits/string_view.tcc \
  /usr/include/c++/12.2.0/ext/string_conversions.h \
  /usr/include/c++/12.2.0/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
@@ -87,17 +82,20 @@ CMakeFiles/supertux.dir/globals.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/12.2.0/bits/std_abs.h \
- /usr/include/c++/12.2.0/cstdio /usr/include/stdio.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/12.2.0/bits/std_abs.h /usr/include/c++/12.2.0/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/12.2.0/cerrno \
- /usr/include/errno.h /usr/include/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/bits/types/error_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
+ /usr/include/c++/12.2.0/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/12.2.0/bits/charconv.h \
+ /usr/include/c++/12.2.0/bits/functional_hash.h \
+ /usr/include/c++/12.2.0/bits/hash_bytes.h \
  /usr/include/c++/12.2.0/bits/basic_string.tcc /usr/include/SDL2/SDL.h \
  /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
  /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_platform.h \
@@ -111,19 +109,7 @@ CMakeFiles/supertux.dir/globals.cpp.o: \
  /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/specfun.h \
- /usr/include/c++/12.2.0/limits /usr/include/c++/12.2.0/tr1/gamma.tcc \
- /usr/include/c++/12.2.0/tr1/special_function_util.h \
- /usr/include/c++/12.2.0/tr1/bessel_function.tcc \
- /usr/include/c++/12.2.0/tr1/beta_function.tcc \
- /usr/include/c++/12.2.0/tr1/ell_integral.tcc \
- /usr/include/c++/12.2.0/tr1/exp_integral.tcc \
- /usr/include/c++/12.2.0/tr1/hypergeometric.tcc \
- /usr/include/c++/12.2.0/tr1/legendre_function.tcc \
- /usr/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
- /usr/include/c++/12.2.0/tr1/poly_hermite.tcc \
- /usr/include/c++/12.2.0/tr1/poly_laguerre.tcc \
- /usr/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+ /usr/include/bits/iscanonical.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/float.h \
  /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h \
  /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h \

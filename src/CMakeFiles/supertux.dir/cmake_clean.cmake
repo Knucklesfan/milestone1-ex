@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/supertux.dir/background.cpp.o"
+  "CMakeFiles/supertux.dir/background.cpp.o.d"
   "CMakeFiles/supertux.dir/badguy.cpp.o"
   "CMakeFiles/supertux.dir/badguy.cpp.o.d"
   "CMakeFiles/supertux.dir/button.cpp.o"

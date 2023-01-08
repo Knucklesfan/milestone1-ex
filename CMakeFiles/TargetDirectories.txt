@@ -1,0 +1,5 @@
+/home/knucklesfan/Documents/GitHub/milestone1-ex/CMakeFiles/edit_cache.dir
+/home/knucklesfan/Documents/GitHub/milestone1-ex/CMakeFiles/rebuild_cache.dir
+/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles/supertux.dir
+/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles/edit_cache.dir
+/home/knucklesfan/Documents/GitHub/milestone1-ex/src/CMakeFiles/rebuild_cache.dir

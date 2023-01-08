@@ -1,4 +1,4 @@
-CMakeFiles/supertux.dir/gameobjs.cpp.o: \
+src/CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12.2.0/algorithm \
  /usr/include/c++/12.2.0/bits/stl_algobase.h \
@@ -9,7 +9,6 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/12.2.0/pstl/pstl_config.h \
  /usr/include/c++/12.2.0/bits/functexcept.h \
  /usr/include/c++/12.2.0/bits/exception_defines.h \
  /usr/include/c++/12.2.0/bits/cpp_type_traits.h \
@@ -55,9 +54,8 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/12.2.0/bits/std_abs.h \
- /usr/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
- /usr/include/c++/12.2.0/pstl/execution_defs.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/12.2.0/bits/std_abs.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/world.h \
  /usr/include/c++/12.2.0/vector /usr/include/c++/12.2.0/bits/allocator.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -85,10 +83,11 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/12.2.0/stdlib.h \
- /usr/include/string.h /usr/include/strings.h /usr/include/wchar.h \
- /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
- /usr/include/bits/types/mbstate_t.h /usr/include/inttypes.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
+ /usr/include/c++/12.2.0/stdlib.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+ /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
+ /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/ctype.h /usr/include/c++/12.2.0/math.h \
@@ -98,19 +97,7 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/12.2.0/bits/specfun.h \
- /usr/include/c++/12.2.0/limits /usr/include/c++/12.2.0/tr1/gamma.tcc \
- /usr/include/c++/12.2.0/tr1/special_function_util.h \
- /usr/include/c++/12.2.0/tr1/bessel_function.tcc \
- /usr/include/c++/12.2.0/tr1/beta_function.tcc \
- /usr/include/c++/12.2.0/tr1/ell_integral.tcc \
- /usr/include/c++/12.2.0/tr1/exp_integral.tcc \
- /usr/include/c++/12.2.0/tr1/hypergeometric.tcc \
- /usr/include/c++/12.2.0/tr1/legendre_function.tcc \
- /usr/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
- /usr/include/c++/12.2.0/tr1/poly_hermite.tcc \
- /usr/include/c++/12.2.0/tr1/poly_laguerre.tcc \
- /usr/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+ /usr/include/bits/iscanonical.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/float.h \
  /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h \
  /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h \
@@ -233,8 +220,6 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /usr/include/c++/12.2.0/bits/ostream_insert.h \
  /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
  /usr/include/c++/12.2.0/bits/basic_string.h \
- /usr/include/c++/12.2.0/string_view \
- /usr/include/c++/12.2.0/bits/string_view.tcc \
  /usr/include/c++/12.2.0/ext/string_conversions.h \
  /usr/include/c++/12.2.0/cstdio /usr/include/c++/12.2.0/cerrno \
  /usr/include/errno.h /usr/include/bits/errno.h \
@@ -278,7 +263,6 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameobjs.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/tile.h \
  /usr/include/c++/12.2.0/set /usr/include/c++/12.2.0/bits/stl_tree.h \
- /usr/include/c++/12.2.0/bits/node_handle.h \
  /usr/include/c++/12.2.0/bits/stl_set.h \
  /usr/include/c++/12.2.0/bits/stl_multiset.h \
  /usr/include/c++/12.2.0/bits/erase_if.h /usr/include/c++/12.2.0/map \
@@ -292,5 +276,42 @@ CMakeFiles/supertux.dir/gameobjs.cpp.o: \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/setup.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/gameloop.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/level.h \
+ /home/knucklesfan/Documents/GitHub/milestone1-ex/src/background.h \
+ /usr/include/c++/12.2.0/iostream /usr/include/c++/12.2.0/ostream \
+ /usr/include/c++/12.2.0/ios /usr/include/c++/12.2.0/exception \
+ /usr/include/c++/12.2.0/bits/exception_ptr.h \
+ /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
+ /usr/include/c++/12.2.0/typeinfo \
+ /usr/include/c++/12.2.0/bits/nested_exception.h \
+ /usr/include/c++/12.2.0/bits/ios_base.h \
+ /usr/include/c++/12.2.0/ext/atomicity.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/12.2.0/bits/locale_classes.h \
+ /usr/include/c++/12.2.0/bits/locale_classes.tcc \
+ /usr/include/c++/12.2.0/system_error \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/12.2.0/stdexcept /usr/include/c++/12.2.0/streambuf \
+ /usr/include/c++/12.2.0/bits/streambuf.tcc \
+ /usr/include/c++/12.2.0/bits/basic_ios.h \
+ /usr/include/c++/12.2.0/bits/locale_facets.h \
+ /usr/include/c++/12.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/12.2.0/bits/streambuf_iterator.h \
+ /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/12.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/12.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
+ /usr/include/c++/12.2.0/bits/istream.tcc /usr/include/c++/12.2.0/array \
+ /usr/include/c++/12.2.0/compare /usr/include/c++/12.2.0/cstring \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/musicref.h \
  /home/knucklesfan/Documents/GitHub/milestone1-ex/src/music_manager.h

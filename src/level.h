@@ -25,6 +25,7 @@
 #include "texture.h"
 #include "badguy.h"
 #include "lispreader.h"
+#include "background.h"
 #ifndef NOSOUND
 #include "musicref.h"
 #endif
@@ -71,6 +72,7 @@ struct ResetPoint
 class Level 
 {
  public:
+  bg* backg;
   Surface* img_bkgd;
 #ifndef NOSOUND
   MusicRef level_song;
@@ -81,6 +83,7 @@ class Level
   std::string author;
   std::string song_title;
   std::string bkgd_image;
+  std::string new_bkgd;
   std::string particle_system;
   std::vector<std::vector<unsigned int>> bg_tiles; /* Tiles in the background */
   std::vector<std::vector<unsigned int>> ia_tiles; /* Tiles which can interact in the game (solids for example)*/

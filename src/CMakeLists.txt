@@ -6,7 +6,7 @@ add_compile_definitions(DATA_PREFIX="../data")
 add_compile_definitions(VERSION="0.1.5SDL2")
 set(CMAKE_CXX_COMPILER /usr/bin/g++)
 set(CMAKE_C_COMPILER /usr/bin/gcc)
-set(SOURCE_FILES world.cpp type.cpp texture.cpp mousecursor.cpp worldmap.cpp high_scores.cpp particlesystem.cpp lispreader.cpp special.cpp player.cpp menu.cpp text.cpp button.cpp supertux.cpp physic.cpp badguy.cpp setup.cpp leveleditor.cpp level.cpp sound.cpp music_manager.cpp tile.cpp resources.cpp title.cpp sprite_manager.cpp musicref.cpp intro.cpp timer.cpp gameobjs.cpp screen.cpp gameloop.cpp sprite.cpp collision.cpp globals.cpp scene.cpp configfile.cpp)
+set(SOURCE_FILES world.cpp type.cpp texture.cpp mousecursor.cpp worldmap.cpp high_scores.cpp particlesystem.cpp lispreader.cpp special.cpp player.cpp menu.cpp text.cpp button.cpp supertux.cpp physic.cpp badguy.cpp setup.cpp leveleditor.cpp level.cpp sound.cpp music_manager.cpp tile.cpp resources.cpp title.cpp sprite_manager.cpp musicref.cpp intro.cpp timer.cpp gameobjs.cpp screen.cpp gameloop.cpp sprite.cpp collision.cpp globals.cpp scene.cpp configfile.cpp background.cpp)
 #ironically, borrowed exactly from milestone 2 of supertux lol
 message(STATUS "Checking for SDL2")
 if(WIN32)

@@ -1,0 +1,26 @@
+<name>Cave Story BG</name>
+<creator>Knuxfan</creator>
+<vers>1.0</vers>
+
+<layers>5</layers>
+
+<layer0>5</layer0>
+<layer0y>0</layer0y>
+
+<layer1>10</layer1>
+<layer1y>0</layer1y>
+
+<layer2>15</layer2>
+<layer2y>0</layer2y>
+
+<layer3>20</layer3>
+<layer3y>0</layer3y>
+
+<layer4>0</layer4>
+<layer4y>0</layer4y>
+
+
+<music>song.xm</music>
+<musicname>Take on Me Chipedit</musicname>
+<musicartist>Zalza of Tequila</musicartist>
+<thumbnail>thumbnail.nonanex.bmp</thumbnail>

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DDATA_PREFIX=\"../data\" -DVERSION=\"0.1.5SDL2\"
 
-CXX_INCLUDES = -I/home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux -I/usr/include/SDL2
+CXX_INCLUDES = -I/home/knucklesfan/Documents/GitHub/milestone1-ex/include -I/home/knucklesfan/Documents/GitHub/milestone1-ex/src/supertux -I/usr/include/SDL2
 
-CXX_FLAGS =  -fsanitize=address
+CXX_FLAGS =  -std=c++11 -O3 -fsanitize=address -std=gnu++11
 

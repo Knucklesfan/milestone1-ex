@@ -357,6 +357,9 @@ Level::load(const std::string& filename)
       reader.read_string("music",  &song_title);
       bkgd_image = "";
       reader.read_string("background",  &bkgd_image);
+      new_bkgd = "";
+      reader.read_string("newbg",  &new_bkgd);
+
       particle_system = "";
       reader.read_string("particle_system", &particle_system);
 
@@ -603,6 +606,8 @@ Level::save(const std::string& subset, int level)
   fprintf(fi,"  (author \"%s\")\n", author.c_str());
   fprintf(fi,"  (music \"%s\")\n", song_title.c_str());
   fprintf(fi,"  (background \"%s\")\n", bkgd_image.c_str());
+  fprintf(fi,"  (newbg \"%s\")\n", new_bkgd.c_str());
+
   fprintf(fi,"  (particle_system \"%s\")\n", particle_system.c_str());
   fprintf(fi,"  (bkgd_speed %d)\n", bkgd_speed);
   fprintf(fi,"  (bkgd_red_top %d)\n", bkgd_top.red);
@@ -697,12 +702,19 @@ Level::cleanup()
 void 
 Level::load_gfx()
 {
-  if(!bkgd_image.empty())
+  if(!new_bkgd.empty()) {
+    backg = new bg(new_bkgd,false,screen->render);
+    delete img_bkgd;
+    img_bkgd = 0;
+
+  }
+  else if(!bkgd_image.empty())
     {
       char fname[1024];
       snprintf(fname, 1024, "%s/background/%s", st_dir, bkgd_image.c_str());
       if(!faccessible(fname))
         snprintf(fname, 1024, "%s/images/background/%s", datadir.c_str(), bkgd_image.c_str());
+      backg = 0;
       delete img_bkgd;
       img_bkgd = new Surface(fname, IGNORE_ALPHA);
     }
@@ -710,6 +722,8 @@ Level::load_gfx()
     {
       delete img_bkgd;
       img_bkgd = 0;
+      backg = 0;
+
     }
 }
 

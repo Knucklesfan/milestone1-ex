@@ -184,7 +184,11 @@ World::draw()
   int y,x;
 
   /* Draw the real background */
-  if(level->img_bkgd)
+  if(level->backg) {
+    level->backg->logic(100);
+    level->backg->render(screen->render,false);
+  }
+  else if(level->img_bkgd)
     {
             int s = (int)((float)scroll_x * ((float)level->bkgd_speed/100.0f)) % screen->w;
 

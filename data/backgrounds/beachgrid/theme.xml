@@ -1,0 +1,23 @@
+<name>Beach Grid</name>
+<creator>Knuxfan</creator>
+<vers>1.0</vers>
+
+<layers>2</layers>
+
+<layer0>0</layer0>
+<layer0y>0</layer0y>
+
+<layer1>15</layer1>
+<layer1y>15</layer1y>
+
+<music>song.xm</music>
+<musicname>A Sad Touch..</musicname>
+<musicartist>arachno \ coolphat</musicartist>
+<thumbnail>thumbnail.nonanex.bmp</thumbnail>
+
+<sine>1</sine>
+<sineheight>20</sineheight>
+<sinewidth>20</sinewidth>
+<sinelayerheight>64</sinelayerheight>
+<sinerate>10000</sinerate>
+
