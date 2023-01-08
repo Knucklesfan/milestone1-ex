@@ -186,9 +186,16 @@ World::draw()
   /* Draw the real background */
   if(level->img_bkgd)
     {
-      int s = (int)((float)scroll_x * ((float)level->bkgd_speed/100.0f)) % screen->w;
-      level->img_bkgd->draw_part(s, 0,0,0,level->img_bkgd->w - s, level->img_bkgd->h);
-      level->img_bkgd->draw_part(0, 0,screen->w - s ,0,s,level->img_bkgd->h);
+            int s = (int)((float)scroll_x * ((float)level->bkgd_speed/100.0f)) % screen->w;
+
+      double imagesize=screen->h*(float)((float)level->img_bkgd->w/(float)level->img_bkgd->h);
+      std::cout << "imagesize: " << imagesize << " calculated: " <<  ceil(imagesize/(float)level->img_bkgd->w) << "\n";
+      for(int i = 0; i < ceil(imagesize/(float)level->img_bkgd->w)*2; i++) {
+        level->img_bkgd->draw_stretched(-s+(i*imagesize),0,imagesize,screen->h,255);
+      }
+      std::cout << "done. \n";
+      // level->img_bkgd->draw_part(s, 0,0,0,level->img_bkgd->w - s, level->img_bkgd->h);
+      // level->img_bkgd->draw_part(0, 0,screen->w - s ,0,s,level->img_bkgd->h);
     }
   else
     {

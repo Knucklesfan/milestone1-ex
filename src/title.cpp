@@ -272,6 +272,7 @@ void title(void)
 
   /* --- Main title loop: --- */
   frame = 0;
+    clearscreen(0,0,0);
 
   /* Draw the title background: */
   bkg_title->draw_bg();
@@ -281,7 +282,10 @@ void title(void)
 
   Menu::set_current(main_menu);
   while (Menu::current())
+
     {
+          clearscreen(0,0,0);
+
       // if we spent to much time on a menu entry
       if( (update_time - last_update_time) > 1000)
         update_time = last_update_time = st_get_ticks();

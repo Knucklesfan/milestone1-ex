@@ -938,6 +938,8 @@ WorldMap::at_level()
 void
 WorldMap::draw(const Point& offset)
 {
+    clearscreen(0,0,0);
+
   for(int y = 0; y < height; ++y)
     for(int x = 0; x < width; ++x)
       {

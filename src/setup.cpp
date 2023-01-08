@@ -68,8 +68,8 @@
 /* Screen properties: */
 /* Don't use this to test for the actual screen sizes. Use screen->w/h instead! */
 #ifndef RES320X240
-#define SCREEN_W 640
-#define SCREEN_H 480
+#define SCREEN_W 1280
+#define SCREEN_H 720
 #else
 #define SCREEN_W 320
 #define SCREEN_H 240
